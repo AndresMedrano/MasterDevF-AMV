@@ -4,4 +4,4 @@ document.write(messageToDisplay)
 
 if (condition) {
     
-}
+}   
