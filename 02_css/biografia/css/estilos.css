@@ -1,0 +1,36 @@
+body{
+    background-color:floralwhite  ;
+}
+
+h1{
+    text-align: center;
+    color:steelblue;
+}
+
+.texto{
+    border: solid 2px slategray;
+    padding: 20px;
+}
+
+
+img{
+    padding: 10px;
+    border: double 8px cadetblue;
+    width: 238px;
+    height: 238px;
+}
+
+.subtitulos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+    text-align: center;
+
+}
+
+a{
+    color: cornflowerblue;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
