@@ -1,0 +1,37 @@
+/* Selector por etiqueta */
+body{
+    background-color:floralwhite  ;
+}
+
+h4 {
+    color: blue;
+}
+
+/* p {
+    border-style: double;
+    border-width: 5px;
+    border-color: darkgoldenrod;
+} */
+
+p {
+   border: double 5px darkgoldenrod;
+}
+
+/* Selector por clase */
+
+.paragraph{
+    padding: 10px;
+    text-align: justify;
+}
+
+/* Selector por id  */
+
+#school-map{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mapwrapper{
+    font-weight: 800;
+    font-size: 30px; 
+    color: brown;   
+}
