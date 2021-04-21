@@ -45,7 +45,6 @@ header, nav, main, aside, section, article, footer {
     height: 100px;
     /* background-color: beige; */
     color: #fff;
-    padding-right: 20px;
 }
 
 .contenedor_header {
