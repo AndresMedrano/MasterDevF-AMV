@@ -104,7 +104,7 @@ p{
       display: flex;
       margin: 10px 10px 0 10px;
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: space-around;
       /* flex-direction: row;
       justify-content:flex-end; */
   }
