@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    text-decoration: none;
+    
+}
+
+img{
+    margin: 0 20px;
+}
+
+.img_header{
+    width: 400px;
+}
+
+.menu{
+    background-color: black;
+    padding: 20px;
+    height: 35px;
+    width: 100%;
+    margin-bottom: 30px ;
+    position: sticky;
+    top: 0;
+}
+
+.menu > span{
+    padding: 0px 30px;
+    color: burlywood;
+    font-weight: 600;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu > span:hover{
+    padding: 0px 30px;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+}
+
+section{
+    text-align: justify;
+    padding: 0 35px ;
+    margin-bottom: 20px;
+}
