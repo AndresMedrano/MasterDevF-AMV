@@ -1,0 +1,16 @@
+.nav-name{
+    color: blue !important; 
+}
+
+.main-grid{
+    margin-top: 40px;
+}
+
+.borde{
+    border: 1px solid blue;
+}
+
+img{
+    width: 100px;
+    height: 250px;
+}
