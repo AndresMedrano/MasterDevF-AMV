@@ -101,7 +101,6 @@ button{
     color: azure;
 }
 
-
 .microfono{
     width: 20px;
     height: 25px;
@@ -164,7 +163,6 @@ button{
     /* border: 1px solid #c3c3c4; */
 }
 
-
 .footer2{
     background-color: #ebedf0;
     display: flex;
@@ -189,4 +187,3 @@ button{
     font-family: Arial, sans-serif;
     color: #222;
 }
-
