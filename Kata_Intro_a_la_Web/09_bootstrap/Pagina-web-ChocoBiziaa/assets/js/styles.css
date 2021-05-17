@@ -1,0 +1,77 @@
+
+
+.round{
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.boxita{ 
+    border-radius: 20%;
+    border-width: 5px;
+    border-color:#3E1B16  !important ;
+    background-color: #FFF7E3;
+    min-height: 650px;
+}
+/* .center{
+    margin-left: 5px;
+    border-radius: 50%;
+} */
+
+
+
+.margi{
+    margin-right: 100px;
+
+}
+.col{
+margin: 1%;
+
+}
+.card{
+   color:  #9F4916;
+
+}
+.btn-primary{
+    background-color: #389fa8;
+    border-color: #218690;
+    color: pink;
+}
+.btn-primary:hover {
+    color:rgb(252, 175, 188);
+    background-color: #218690;
+    border-color: #389fa8;
+  }
+
+  h5{
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+    font-size: 23px;
+  }
+
+  .popover{
+    background-color: #FFF7E3;
+    color: #9F4916;
+    font-family: 'Dancing Script', cursive;
+  }
+  .popover-header{
+    background-color: #e7e0ce
+    
+    
+    
+  }
+  .justifier{
+      min-width: 200px;
+      min-height: 200px;
+  }
+
+  .carousel {
+    min-width:414px;
+    min-height:763px;
+    max-width: 1280;
+    max-height: 1024;
+  }
+
+
+
+
+

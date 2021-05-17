@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    padding: 10px 5px;
+    font-size: 14px;
+    background-color: skyblue;
+    color: white;
+    border: 1px solid black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.grid-container{
+
+    
+
+    display: grid;
+
+    /* ======== COLUMNAS ======== */
+    /* Posicionamiento de Columnas por px o % */
+    /* grid-template-columns: 25% 25% 25% 25%; */
+
+    /* Posicionamiento de Columnas repeat () */
+    /* grid-template-columns: repeat(4, 25%); */
+
+    /* Esto representa 3 fracciones de una 1 unidad */
+    grid-template-columns: 2fr 1fr 3fr;
+    /* grid-template-columns: 200px 100px 350px; */
+
+
+    /* ======== FILAS ======== */
+
+    /* Posicionamiento de Filas por px o % */
+    grid-template-rows: 50px 200px;
+
+    /* Posicionamiento de Filas por repeat() */
+    grid-template-rows: repeat(2, 150px);
+
+    /* Adapta el contenido interno de filas de acuerdo al contenido */
+    grid-template-rows: minmax(150px, 350px);
+
+     /* ======== ESPACIOS ======== */
+
+    /* Espacios entre columnas y filas  */
+
+    row-gap: 15px;
+    column-gap: 15px;
+
+    /* SHORTHAND */
+    gap: 15px 20px;
+
+    /* Importante definir height para que funcione align content */
+    height: 600px;
+    border: 1px solid red;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.grid-item1{
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.grid-item2{
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+}
+.grid-item3{
+    /* grid-column-start: 2;
+    grid-column-end: 2; */
+}
+.grid-item4{
+    /* grid-column-start: 3;
+    grid-column-end: 4; */
+}

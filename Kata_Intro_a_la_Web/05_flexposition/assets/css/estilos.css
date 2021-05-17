@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    color: inherit;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px 15px 30px;
+    justify-content: space-around;
+    background: #f3eff3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu > ul >a{
+    font-size: 15px;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+}
+
+.logo > a {
+   text-decoration: none;
+    text-transform: none;
+}
+
+.container_main_image{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image_title{
+    color: honeydew;
+    position: absolute;
+    /* Coordenada Y */
+    top: 100px;
+    /* Coordenada X */
+    /* left: 20%; */
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+.image_subtitle{
+    color: honeydew;
+    position: absolute;
+    /* Coordenada Y */
+    top: 130px;
+    /* Coordenada X */
+    /* left: 10%; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.icono_img{
+    width: 100px;
+    position: absolute;
+    flex-direction: column;
+    top: 170px;
+    /* left: 45%; */
+    z-index: 0;
+}
+
+.banner{
+    width: 100%;
+    height: 350px;
+    background: rgba(67, 14, 190, 0.89);
+}
+
+
+
+.main_title {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.main_subtitle{
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+section{
+    flex-wrap: wrap;
+    background-color: #fff;
+
+}
+
+
+article{
+    width: 22%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+
+article > h4{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.article_p{
+    margin: 5px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: justify;
+}
+
+.more_btn{
+    background: grey;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: ivory;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.iconoservicio{
+
+    width: 150px;
+    height: 150px;
+   
+}
+

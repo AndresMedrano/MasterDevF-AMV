@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+h1{
+        /* Arriba-Abajo Derecha-Izquierda */
+    padding: 60px 0px;
+    text-align: center;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 600px;
+    height: 900px;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    position: relative;
+}
+
+section{
+    padding: 15px;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    width: 95%;
+    /* Relative abre nuevos atributos Saca al elemento de su flujo natural*/
+    position: relative;
+    left: 0px;
+    top: 300px;
+    /* Define un orden en el eje z aparicion de capas */
+    /* z-index: 1; */
+
+}
+.blue{
+    background-color: blue;
+    color: white;
+    /* Fixed se lo puede usar para navs siempre se mueve por todo el sitio */
+    position: fixed;
+    top: 0px;
+    left: 70px;
+    /* top: 20px; */
+}
+.green{
+    background-color: green;
+    color: white;
+    /* Absolute se va a posicionar con respecto a su elemento padre */
+    position: absolute;
+    width: 95%;
+    top: 0px;
+
+}
+.gray{
+    background-color: gray;
+    color: white;
+    width: 95%;
+    /* Sticky Se queda sobre todos los elementos y define la altura del header */
+    position: sticky;
+    top: 100px;
+}
+

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Contenedor Global */
+
+.fondobandera{
+    background: #002868;
+    width: 100%;
+    height: 100vh;
+    display: flex
+}
+
+/* Cajas Izquierda */
+
+.contenedorizquierda{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cajablanca1{
+    width: 90%;
+    height: 40%;
+    background: #fff;
+}
+
+
+.cajablanca2{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    background: #fff;
+}
+
+.cajaroja{
+    width: 90%;
+    height: 90%;
+    background: #ef2b2d;
+}
+
+
+/* CajasDerecha */
+
+.contenedorderecha{
+
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.cajablanca3{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    background: #fff;
+}
+
+.cajablanca4  {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: #fff;
+}
+
+
+.cajaroja2{
+    width: 95%;
+    height: 90%;
+    background: #ef2b2d;
+}
